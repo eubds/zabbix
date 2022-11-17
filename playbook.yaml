@@ -1,0 +1,12 @@
+- name: Install Zabbix Agent
+  hosts: zabbix-agent
+  remote_user: root
+  tasks:
+  - name: Zabbix Agent
+    ansible.builtin.apt:
+      update_cache: yes
+      name: zabbix-agent
+      state: present
+
+
+      

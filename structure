@@ -1,0 +1,4 @@
+zabbix:
+  frontend (zabbix frontend)
+  backend (zabbix server)
+  database (mysql)
